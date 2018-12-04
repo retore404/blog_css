@@ -113,19 +113,19 @@ p.description>span{
 color:white;
 }
 
-
-.mobile h1.title{
+@media screen and (max-width: 768px) {
+  h1.title{
     color:#000006 !important;
     text-align:center;
     font-size: 170% !important;
   }
-.mobile h1.title a:visited {
+  h1.title a:visited {
     color:#000006 !important;
   }
-.mobile p.description>span{
+ p.description>span{
   color:#000006;
   }
-
+}
 .title a:visited {
 color:white !important;
 }
