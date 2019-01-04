@@ -294,6 +294,10 @@ div.widget h2.title{
   border-bottom: solid 1px #000B00;
 }
 
+.mobile .footer-outer div.widget{
+  padding-left:0.5em;
+  padding-right:0.5em;
+}
 
 .imgdetail{
 color: #2f4f4f;
