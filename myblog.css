@@ -1,4 +1,4 @@
-/*�u���O�J�[�hver2*/
+﻿/*�u���O�J�[�hver2*/
 .Rblogcard2 {
 border: 1px solid gray;
 display:inline-block;
@@ -107,6 +107,7 @@ font-size:90%;
   border: 1px solid gray;
   display:inline-block;
   padding: 10px;
+  margin-bottom:1.5em;
 }
 /*Product Link*/
 
