@@ -1,4 +1,4 @@
-﻿/*�u���O�J�[�hver2*/
+/*ブログカードver2*/
 .Rblogcard2 {
 border: 1px solid gray;
 display:inline-block;
@@ -19,9 +19,9 @@ min-width:200px;
 .Rblogcard_url2 {
 font-size:90%;
 }
-/*�u���O�J�[�hver2*/
+/*ブログカードver2*/
 
-/*LINE����bSTART*/
+/*LINE会話START*/
 .line-me,
 .line-opponent {
     clear:both;
@@ -88,7 +88,7 @@ font-size:90%;
     border-right: 10px solid White;
     left: -14px;
 }
-/*LINE����bEND*/
+/*LINE会話END*/
 
 /*カエレバ*/
 .kaerebalink-box{
@@ -111,7 +111,7 @@ font-size:90%;
 }
 /*Product Link*/
 
-/*�^�C�g��*/
+/*タイトル*/
 h1.title{
 text-align:center;
 color: white !important;
@@ -142,14 +142,14 @@ color:white;
 .title a:visited {
 color:white !important;
 }
-/*�^�C�g��*/
+/*タイトル*/
 
 h3.mobile-index-title {
   width: 100%;
 }
 
 * {
-font-family: 'Sawarabi Gothic',  '�q���M�m�p�S ProN W3',  'Yu Gothic Medium', '��S�V�b�N Medium', '��S�V�b�N��', YuGothic, Meiryo, '���C���I',  '�l�r �o�S�V�b�N', sans-serif !important;
+font-family: 'Sawarabi Gothic',  'ヒラギノ角ゴ ProN W3',  'Yu Gothic Medium', '游ゴシック Medium', '游ゴシック体', YuGothic, Meiryo, 'メイリオ',  'ＭＳ Ｐゴシック', sans-serif !important;
 color: #191919;
 }
 
@@ -160,7 +160,7 @@ color: #191919;
 }
 
 .content-inner {
-  background-color: #white;
+  background-color: white;
 }
 
 .under-eyecatch{
@@ -174,10 +174,10 @@ li.L0, li.L1, li.L2, li.L3,li.L5, li.L6, li.L7, li.L8{
 list-style-type: decimal !important
 }
 
-/*�ڎ��͂��܂�*/
+/*目次*/
 ul.index:before{
-  font-family: '�q���M�m�p�S Pro W3',  Meiryo, '���C���I',  '�l�r �o�S�V�b�N', sans-serif !important;
-  content: "����";
+  font-family: 'ヒラギノ角ゴ Pro W3',  Meiryo, 'メイリオ',  'ＭＳ Ｐゴシック', sans-serif !important;
+  content: "もくじ";
   color: #333333;
   font-size: 130%;
   margin-left: -30px;
@@ -201,15 +201,15 @@ ul.index li {
   list-style-type: none!important;
 }
 
-ul.index li:before {/*�^���v�f*/
+ul.index li:before {/*疑似要素*/
   font-family: "Font Awesome 5 Free";
-  content: "\f101";/*�A�C�R���̎��*/
+  content: "\f101";/*アイコンの種類*/
   position: absolute;
-  left : 1.5em;/*���[����̃A�C�R���܂ł̋���*/
+  left : 1.5em;/*左端アイコン距離*/
   font-weight: 900;
-  color: #180614;/*�A�C�R���F*/
+  color: #180614;/*アイコン色*/
 }
-/*�ڎ������*/
+/*目次*/
 
 ul{
   color: #111111;
@@ -228,7 +228,7 @@ img {
   max-width:100%;
 }
 
-/*Google MAP���ߍ���*/
+/*Google MAP*/
 .googlemap iframe,
 .googlemap object,
 .googlemap embed {
@@ -297,7 +297,7 @@ padding: 3px;
 margin-bottom:0.5em;
 }
 
-/*�E�B�W�F�b�g*/
+/*ウィジェット*/
 div.widget h2.title{
   border-bottom: solid 1px #000B00;
 }
@@ -336,7 +336,7 @@ img:not([class="Rblogcard_img2"]) {
 }
 
 
-/*�u���O�J�[�hver1�͂��܂�폜�֎~*/
+/*ブログカードver1（削除禁止）*/
 .Rblogcard {
 border: 1px solid gray;
 display:inline-block;
@@ -367,4 +367,4 @@ font-size:70%;
 max-width:250px;
 min-width:200px;
 }
-/*�u���O�J�[�hver1�I���폜�֎~*/
+/*ブログカードver1*/
