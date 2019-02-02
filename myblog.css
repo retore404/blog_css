@@ -102,12 +102,16 @@ font-size:90%;
 
 /*Product Link*/
 .product_card{
-  max-width: 450px;
+  min-width: 50%;
   background: #f5f5f5;
   border: 1px solid gray;
   display:inline-block;
   padding: 10px;
   margin-bottom:1.5em;
+  font-size:small;
+}
+.mobile .product_card{
+  max-width:100%;
 }
 /*Product Link*/
 
