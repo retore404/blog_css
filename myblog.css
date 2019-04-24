@@ -1,4 +1,4 @@
-/*ブログカードver2*/
+﻿/*ブログカードver2*/
 .Rblogcard2 {
 border: 1px solid gray;
 display:inline-block;
@@ -102,16 +102,15 @@ font-size:90%;
 
 /*Product Link*/
 .product_card{
-  width: 450px;
-  max-width:90%;
+  width: 90%;
   background: #f5f5f5;
   border: 1px solid gray;
   display:inline-block;
-  padding: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
   margin-bottom:1.5em;
   font-size:small;
   text-align: left;
-  padding-bottom:20px;
   zoom: 1;
   overflow: hidden;
 }
