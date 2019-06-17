@@ -21,7 +21,7 @@ font-size:90%;
 }
 /*ブログカードver2*/
 
-/*LINE会話START*/
+/*LINE風会話START*/
 .line-me,
 .line-opponent {
     clear:both;
@@ -88,7 +88,7 @@ font-size:90%;
     border-right: 10px solid White;
     left: -14px;
 }
-/*LINE会話END*/
+/*LINE風会話END*/
 
 /*カエレバ*/
 .kaerebalink-box{
@@ -131,19 +131,17 @@ p.description>span{
 color:white;
 }
 
-
 .mobile h1.title{
     color:#000006 !important;
     text-align:center;
     font-size: 170% !important;
   }
-.mobile h1.title {
+.mobile h1.title a {
     color:#000006 !important;
   }
 .mobile p.description>span{
   color:#000006;
   }
-
 .title a:visited {
 color:white !important;
 }
@@ -165,7 +163,7 @@ color: #191919;
 }
 
 .content-inner {
-  background-color: white;
+  background-color: #white;
 }
 
 .under-eyecatch{
@@ -179,7 +177,7 @@ li.L0, li.L1, li.L2, li.L3,li.L5, li.L6, li.L7, li.L8{
 list-style-type: decimal !important
 }
 
-/*目次*/
+/*目次はじまり*/
 ul.index:before{
   font-family: 'ヒラギノ角ゴ Pro W3',  Meiryo, 'メイリオ',  'ＭＳ Ｐゴシック', sans-serif !important;
   content: "もくじ";
@@ -210,11 +208,11 @@ ul.index li:before {/*疑似要素*/
   font-family: "Font Awesome 5 Free";
   content: "\f101";/*アイコンの種類*/
   position: absolute;
-  left : 1.5em;/*左端アイコン距離*/
+  left : 1.5em;/*左端からのアイコンまでの距離*/
   font-weight: 900;
   color: #180614;/*アイコン色*/
 }
-/*目次*/
+/*目次おわり*/
 
 ul{
   color: #111111;
@@ -233,7 +231,8 @@ img {
   max-width:100%;
 }
 
-/*Google MAP*/
+
+/*Google MAP埋め込み*/
 .googlemap iframe,
 .googlemap object,
 .googlemap embed {
@@ -284,18 +283,17 @@ border-bottom:1px solid #000B00;
 
 h3.heading{
 color: #111111;
-margin: 70px 0px 15px 0px;
-padding: 10px 5px 10px 5px;
-border-top:1px solid #000B00;
-border-bottom:1px solid #000B00;
-font-size:105%;
+margin: 50px 0px 5px 0px;
+padding: 10px 0px 3px 5px;
+border-bottom:2px solid #000B00;
+font-size:130%;
 }
 
 h4.heading {
 font-size:110%;
 color: #111111;
 font-weight: normal;
-margin-top: 2.5em;
+margin-top: 1.5em;
 border-bottom: solid 1px #111111;
 border-top: solid 1px #111111;
 padding: 3px;
@@ -314,6 +312,7 @@ div.BlogArchive h2, div.Label h2{
   padding-left:0.5em;
   padding-right:0.5em;
 }
+
 
 .imgdetail{
 color: #2f4f4f;
@@ -341,7 +340,7 @@ img:not([class="Rblogcard_img2"]) {
 }
 
 
-/*ブログカードver1（削除禁止）*/
+/*ブログカードver1はじまり削除禁止*/
 .Rblogcard {
 border: 1px solid gray;
 display:inline-block;
@@ -372,4 +371,4 @@ font-size:70%;
 max-width:250px;
 min-width:200px;
 }
-/*ブログカードver1*/
+/*ブログカードver1終わり削除禁止*/
